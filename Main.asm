@@ -62,7 +62,7 @@ endXO:
     MOV AH, 4Ch
     INT 21h   
 
-
+;status displaying
 endLine DB "-----------", 0Ah, 0Dh, 24h
 nums DB 31h, 32h, 33h, 34h, 35h, 36h, 37h, 38h, 39h, 40h
 firstmsg DB "Tic Tac Toe (2P GAME) ", 0Ah, 0Dh, 24h  
@@ -141,7 +141,7 @@ endXOm:
     INT 16h    
     MOV AH, 4Ch
     INT 21h
-
+;display message regaring status of game
 endLinem DB "-----------", 0Ah, 0Dh, 24h
 numsm DB 31h, 32h, 33h, 34h, 35h, 36h, 37h, 38h, 39h, 40h
 firstmsgm DB "Tic Tac Toe (Single Player Game)", 0Ah, 0Dh, 24h
@@ -176,7 +176,7 @@ ENDM single
 
 
 ORG 100h   
-
+;for printing message
 LEA DX, msg
 MOV AH, 09h
 INT 21h 
