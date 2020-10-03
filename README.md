@@ -5,4 +5,16 @@ It has 2 game modes
   i) Single-Player Mode.
   ii) 2 Player Mode.
   
-  To play the game run Main.asm in emu8086.Then select the game mode to play and enjoy gaming!!!
+RULES FOR TIC-TAC-TOE
+
+1. The game is played on a grid that's 3 squares by 3 squares.
+
+2. You are X, your friend (or the computer in this case) is O. Players take turns putting their marks in empty squares.
+
+3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.
+
+4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
+
+
+  
+To play the game run Main.asm in emu8086.Then select the game mode to play and enjoy gaming!!!
