@@ -2,8 +2,8 @@
 
 TicTacToe is written using Assembly Language in emu8086.  
 It has 2 game modes
-  i) Single-Player Mode.
-  ii) 2 Player Mode.
+  1) Single-Player Mode.
+  2) 2 Player Mode.
   
 RULES FOR TIC-TAC-TOE
 
@@ -15,6 +15,6 @@ RULES FOR TIC-TAC-TOE
 
 4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
 
-
+5.enjoy the marvelous game
   
 To play the game run Main.asm in emu8086.Then select the game mode to play and enjoy gaming!!!
